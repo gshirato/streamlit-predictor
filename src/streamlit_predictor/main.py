@@ -1,8 +1,6 @@
 import streamlit as st
 from streamlit_sortables import sort_items
-from streamlit_predictor.teams import teams_2025
 import requests
-import json
 
 simple_style = """
 /* 並び替えリストのスタイル */
@@ -26,6 +24,8 @@ simple_style = """
 }
 
 """
+
+teams_2025 = st.secrets["teams_2025"]
 
 prediction = sort_items(teams_2025, direction="vertical", custom_style=simple_style)
 
