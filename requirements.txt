@@ -32,6 +32,7 @@ rpds-py==0.22.3
 six==1.17.0
 smmap==5.0.2
 streamlit==1.42.0
+-e file:///Users/gotashirato/Projects/personal%20project/streamlit-predictor
 streamlit-sortables==0.3.1
 tenacity==9.0.0
 toml==0.10.2
